@@ -1,0 +1,109 @@
+* {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(253, 230, 183);
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 3.4em;
+}
+
+#select {
+    display: flex;
+    flex-direction: column;
+}
+
+#select-p {
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#select-symbol {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: rgb(253, 230, 183);
+    font-size: 6em;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+.button:focus {
+    color: rgb(107, 107, 107);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    margin-top: 45px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    cursor: pointer;
+}
+
+.box-hover-X:hover {
+    color: rgb(180, 179, 179);
+}
+
+.invalid-box {
+    cursor: not-allowed;
+}
+
+[id='0'], [id='1'], [id='2']  {
+    border-bottom: 2px solid black;
+}
+
+[id='3'], [id='4'], [id='5']  {
+    border-bottom: 2px solid black;
+}
+
+[id='0'], [id='3'], [id='6']  {
+    border-right: 2px solid black;
+}
+
+[id='1'], [id='4'], [id='7']  {
+    border-right: 2px solid black;
+}
+
+.reset-btn-window {
+    margin-top: 30px;
+}
+
+.reset-btn {
+    background-color: rgb(216, 170, 101);
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.8em;
+    border-radius: 10px;
+}
+
+.reset-btn:hover {
+    background-color: rgb(230, 198, 150);
+    cursor: pointer;
+}
+
+.winner {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
