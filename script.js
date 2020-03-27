@@ -81,7 +81,6 @@ const drawBoard = () => {
                     playAiTurn();
                 }
             }
-            console.log(gameOver);
         });
 
         gameBoard.appendChild(div);

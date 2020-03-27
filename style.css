@@ -49,6 +49,7 @@
     height: 400px;
     width: 400px;
     margin-top: 45px;
+    margin-bottom: 30px;;
 }
 
 .box {
@@ -84,7 +85,7 @@
 }
 
 .reset-btn-window {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .reset-btn {
@@ -105,5 +106,4 @@
 .winner {
     font-weight: bold;
     font-size: 2.5em;
-    margin-top: 30px;
 }
